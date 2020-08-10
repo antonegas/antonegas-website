@@ -1,0 +1,21 @@
+#header {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  color: #D52D24;
+  font-size: 3em;
+}
+
+#content-wrapper {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#content-wrapper .titel {
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: -0.3em;
+}
+
+#content-wrapper p {
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: 0.7em;
+}
