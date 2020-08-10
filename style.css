@@ -19,3 +19,23 @@
   font-family: 'Roboto', sans-serif;
   padding-bottom: 0.7em;
 }
+
+#content-wrapper .bold {
+  font-weight: bold;
+}
+
+#content-wrapper .italic {
+  font-style: italic;
+}
+
+#content-wrapper .underline {
+  text-decoration: underline;
+}
+
+#content-wrapper .strike-through {
+  text-decoration: line-through;
+}
+
+footer {
+  text-align: center;
+}
