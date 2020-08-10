@@ -20,6 +20,10 @@
   padding-bottom: 0.7em;
 }
 
+#content-wrapper img {
+  width: 100%;
+}
+
 #content-wrapper .bold {
   font-weight: bold;
 }
