@@ -24,9 +24,19 @@
   width: 100%;
 }
 
-#content-wrapper video {
+#content-wrapper .video {
+  margin-top: 1.7em;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+#content-wrapper .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding-top: 1.7em;
+  height: 100%;
 }
 
 #content-wrapper .bold {
