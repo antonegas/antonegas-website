@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 #header {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
