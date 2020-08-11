@@ -1,11 +1,25 @@
 :root {
   color-scheme: light dark;
+  --logo-color: #D52D24;
+  --bg-color: white;
+  --text-color: #121212;
+}
+
+:root.darkmode {
+  --logo-color: #D52D24;
+  --bg-color: #121212;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 #header {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
-  color: #D52D24;
+  color: var(--logo-color);
   font-size: 3em;
 }
 
