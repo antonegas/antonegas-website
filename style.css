@@ -93,6 +93,9 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #header {
+    font-size: 4em;
+  }
   #content-wrapper {
     width: 48%;
   }
