@@ -107,6 +107,6 @@ footer {
     font-size: 5em;
   }
   #content-wrapper {
-    width: 30%;
+    width: 30%; /* This one might not work on ultra wide displays */
   }
 }

@@ -1,7 +1,9 @@
 var rootElement = document.documentElement;
 
-if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+function toggleDarkmode () {
   rootElement.classList.add("darkmode")
 };
 
-var darkmodeToggle = document.querySelector(".darkmode-toggle");
+if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  toggleDarkmode()
+};
