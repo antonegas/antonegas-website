@@ -47,7 +47,7 @@ button {
 
 #content-wrapper p {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5em;
+  line-height: 1.5em
   padding-bottom: 0.7em;
 }
 
@@ -121,5 +121,9 @@ footer {
   }
   #content-wrapper {
     width: 30%; /* This one might not work on ultra wide displays */
+  }
+  #content-wrapper img {
+    width: 125%;
+    margin-left: -12.5%;
   }
 }
