@@ -37,7 +37,7 @@ button {
 
 #content-wrapper {
   width: 90%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 #content-wrapper .titel {
@@ -53,6 +53,7 @@ button {
 
 #content-wrapper img {
   width: 100%;
+  margin: 1.4em 0;
 }
 
 #content-wrapper .video {
