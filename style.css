@@ -11,10 +11,6 @@
   --text-color: white;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -24,6 +20,10 @@ button {
   background: none;
   border: none;
   outline: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 #header {
