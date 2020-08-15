@@ -11,12 +11,22 @@
   --text-color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
 
-#header button {
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#header {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   color: var(--logo-color);
@@ -95,7 +105,7 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #header button {
+  #header {
     font-size: 4em;
   }
   #content-wrapper {
@@ -105,7 +115,7 @@ footer {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  #header button {
+  #header {
     font-size: 5em;
   }
   #content-wrapper {
